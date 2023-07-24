@@ -1,0 +1,18 @@
+
+In this we'll lookup
+
+1) Provider
+2) FutureProvider
+3) StreamProvider
+4) StateProvider
+5) ChangeNotifierProvider
+6) StateNotifierProvider
+
+These are 6 types of provider that we can use in Riverpod.
+
+in river pod there are 2 types of modifiers
+1) .autoDispose().
+2) .family().
+
+.autoDispose() modifiers is user to dispose provider from memory when widget or that view dispose.
+.family() modifiers is use to give parameters to the provider.
